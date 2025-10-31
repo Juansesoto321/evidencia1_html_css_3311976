@@ -1,0 +1,21 @@
+---
+// Definimos las propiedades 
+// que puede recibir el componente
+    interface Props {
+       etiqueta: string;
+    }
+    //crear una variable
+    //para recibir la etiqueta
+    //Astro.props=los valores desde
+    //            el control         
+    const  etiqueta  = Astro.props.etiqueta;
+--- 
+<label>{"etiqueta"}</label>
+<select>
+    <option>Cali</option>
+    <option>Bogotá</option>
+    <option>Medellin</option>
+    <option>Cartagena</option>
+    <option>Bucaramanga</option>
+    <option>Ibague</option>
+</select>

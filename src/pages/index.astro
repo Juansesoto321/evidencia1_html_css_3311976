@@ -1,6 +1,9 @@
 ---
+import ButtonSend from "../components/ButtonSend.astro";
 import InputText 
    from "../components/InputText.astro";
+import RadioButtonGroup from "../components/RadioButtonGroup.astro";
+import Select from "../components/Select.astro";
 import FormLayout 
    from "../layouts/FormLayout.astro";
 ---
@@ -20,4 +23,17 @@ import FormLayout
 		slot="caja-texto-email"
 	/>
 	
-</FormLayout>
+	<RadioButtonGroup 
+		etiqueta="seleccione tipo de documento"
+		slot="grupo-radio"
+	/>
+
+	<Select
+		etiqueta="seleccione ciudad:"
+		slot="select-ciudades"
+	/>
+	<ButtonSend
+		etiqueta="Enviar"
+		slot="boton-envio"
+	/>
+</FromLayout>
