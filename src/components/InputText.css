@@ -6,13 +6,13 @@
     /* señalada por el selector*/
     input{
         display:block;
-        background-color: rgb(165, 226, 250);
+        background-color: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
         /* bordes:
         - Color
         - Peso (grosor)
         - estilo (tipo de linea)*/
-        border-color: rgb(0, 17, 255);
+        border-color: rgb(0, 0, 0);
         border width: 5px;
         border style: solid;
         border-radius: 5px;
